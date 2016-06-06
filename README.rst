@@ -8,15 +8,15 @@ It will produce following information in JSON file:
 Computer
 
 - Name
-
 - OS
+
   - Version
   - Bit Version
-
 - Logged In User
-  - Name
 
+  - Name
 - CPU
+
   - Name
   - Vendor
   - Speed
