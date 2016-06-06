@@ -39,8 +39,12 @@ Computer
 
 ### extern / submodules
 
-- [psutil](https://github.com/giampaolo/psutil)
+- psutil_
+
+.. _psutil: http://www.python.org/
 
 #### src:
 
-- [RST Quickref](http://docutils.sourceforge.net/docs/user/rst/quickref.html)
+- RST-Quickref_
+
+.. _RST-Quickref: http://docutils.sourceforge.net/docs/user/rst/quickref.html
