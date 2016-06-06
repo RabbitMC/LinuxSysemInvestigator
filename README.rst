@@ -36,3 +36,11 @@ Computer
 
   - IP
   - Mac
+
+### extern / submodules
+
+- [psutil](https://github.com/giampaolo/psutil)
+
+#### src:
+
+- [RST Quickref](http://docutils.sourceforge.net/docs/user/rst/quickref.html)
