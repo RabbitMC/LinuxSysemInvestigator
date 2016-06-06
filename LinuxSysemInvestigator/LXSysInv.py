@@ -24,11 +24,17 @@ used = os.times()
 now = time.time()
 means = time.ctime(now)
 
-print "User number",unumber
-print "Process ID",pnumber
-print "Current Directory",where
-print "System information",what
-print "System information",used
+print "\n----------------------------------"
+print "LXInv - Linux System Inventigator"
+print "---------------------------------- \n\n"
 
-print "\nTime is now",now
-print "Which interprets as",means
+print "User number: ", unumber
+print "Process ID: ", pnumber
+print "Current Directory: ", where
+print "System information: ", what
+print "System information: ", used
+
+print "\nTime is now: ", now
+print "Which interprets as:", means
+
+print "\n\nEND \n\n"
