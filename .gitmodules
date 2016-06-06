@@ -1,0 +1,3 @@
+[submodule "extern/psutil"]
+	path = extern/psutil
+	url = https://github.com/giampaolo/psutil
