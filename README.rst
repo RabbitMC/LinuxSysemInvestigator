@@ -37,13 +37,16 @@ Computer
   - IP
   - Mac
 
-### extern / submodules
+
+extern / submodules
+--------
 
 - psutil_
 
 .. _psutil: http://www.python.org/
 
-#### src:
+src
+--------
 
 - RST-Quickref_
 
