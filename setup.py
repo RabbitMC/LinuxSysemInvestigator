@@ -10,13 +10,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='LinuxSysemInvestigator',
+    name='LinuxSystemInvestigator',
     version='0.0.1',
     description='Generic Linux System Investigator Kit',
     long_description=readme,
     author='Miralem Cebic',
     author_email='m.cebic@web.de',
-    url='https://github.com/RabbitMC/LinuxSysemInvestigator',
+    url='https://github.com/RabbitMC/LinuxSystemInvestigator',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )

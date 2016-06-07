@@ -1,8 +1,7 @@
 # import argparse
 # from os import path
-import LXSysInv
 
-from LinuxSystemInvestigator import LXSysInv
+from LXSysInv import LXSysInv
 
 # parser = argparse.ArgumentParser(description='LinuxSystemInvestigator')
 # parser.add_argument('-o', dest="output path dir, where to store the resulting json file.")

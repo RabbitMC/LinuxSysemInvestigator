@@ -3,15 +3,23 @@ import os
 import time
 import json
 
-from LinuxSystemInvestigator import ComputerName
+from Computer import Computer
 
 class LXSysInv:
     """Linux System Inventigator main class"""
     def __init__(self):
         """ init method """
+
+        print "\n----------------------------------"
+        print "LXInv - Linux System Inventigator"
+        print "---------------------------------- \n\n"
+
+
         self.data = []
 
-        self.computer_name = ComputerName().name
+        computer = Computer()
+        self.computer_name = computer.name
+
         print ":: ComputerName: ", self.computer_name
 
     def to_json(self):
@@ -21,25 +29,23 @@ class LXSysInv:
 
 
 
-unumber = os.getuid()
-pnumber = os.getpid()
-where = os.getcwd()
-what = os.uname()
-used = os.times()
-now = time.time()
-means = time.ctime(now)
+#unumber = os.getuid()
+#pnumber = os.getpid()
+#where = os.getcwd()
+#what = os.uname()
+#used = os.times()
+#now = time.time()
+#means = time.ctime(now)
 
-print "\n----------------------------------"
-print "LXInv - Linux System Inventigator"
-print "---------------------------------- \n\n"
 
-print "User number: ", unumber
-print "Process ID: ", pnumber
-print "Current Directory: ", where
-print "System information: ", what
-print "System information: ", used
 
-print "\nTime is now: ", now
-print "Which interprets as:", means
+#print "User number: ", unumber
+#print "Process ID: ", pnumber
+#print "Current Directory: ", where
+#print "System information: ", what
+#print "System information: ", used
 
-print "\n\nEND \n\n"
+#print "\nTime is now: ", now
+#print "Which interprets as:", means
+
+#print "\n\nEND \n\n"
