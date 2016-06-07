@@ -10,3 +10,4 @@ from LXSysInv import LXSysInv
 # if path.exists(args.a):
 
 linuxSysInv = LXSysInv()
+linuxSysInv.to_json()

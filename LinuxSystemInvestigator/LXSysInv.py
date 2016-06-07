@@ -1,6 +1,6 @@
 # import sys
-import os
-import time
+# import os
+# import time
 import json
 
 from Computer import Computer
@@ -14,13 +14,17 @@ class LXSysInv:
         print "LXInv - Linux System Inventigator"
         print "---------------------------------- \n\n"
 
-
         self.data = []
 
         computer = Computer()
         self.computer_name = computer.name
 
         print ":: ComputerName: ", self.computer_name
+
+
+
+
+        print "\n\nEND \n\n"
 
     def to_json(self):
         return json.dumps(self, default=lambda o: o.__dict__, sort_keys=True, indent=4)
@@ -48,4 +52,4 @@ class LXSysInv:
 #print "\nTime is now: ", now
 #print "Which interprets as:", means
 
-#print "\n\nEND \n\n"
+
